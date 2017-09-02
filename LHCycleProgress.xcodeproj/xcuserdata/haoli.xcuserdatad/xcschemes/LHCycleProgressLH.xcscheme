@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "601160E41EC4037B00E46DC8"
-               BuildableName = "LHCycleProgress.app"
-               BlueprintName = "LHCycleProgress"
+               BlueprintIdentifier = "3ACB24FC1F5AC48A00016AD4"
+               BuildableName = "LHCycleProgressLH.app"
+               BlueprintName = "LHCycleProgressLH"
                ReferencedContainer = "container:LHCycleProgress.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "601160E41EC4037B00E46DC8"
-            BuildableName = "LHCycleProgress.app"
-            BlueprintName = "LHCycleProgress"
+            BlueprintIdentifier = "3ACB24FC1F5AC48A00016AD4"
+            BuildableName = "LHCycleProgressLH.app"
+            BlueprintName = "LHCycleProgressLH"
             ReferencedContainer = "container:LHCycleProgress.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "601160E41EC4037B00E46DC8"
-            BuildableName = "LHCycleProgress.app"
-            BlueprintName = "LHCycleProgress"
+            BlueprintIdentifier = "3ACB24FC1F5AC48A00016AD4"
+            BuildableName = "LHCycleProgressLH.app"
+            BlueprintName = "LHCycleProgressLH"
             ReferencedContainer = "container:LHCycleProgress.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "601160E41EC4037B00E46DC8"
-            BuildableName = "LHCycleProgress.app"
-            BlueprintName = "LHCycleProgress"
+            BlueprintIdentifier = "3ACB24FC1F5AC48A00016AD4"
+            BuildableName = "LHCycleProgressLH.app"
+            BlueprintName = "LHCycleProgressLH"
             ReferencedContainer = "container:LHCycleProgress.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3ACB24FE1F5AC48A00016AD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601160EF1EC4037B00E46DC8 /* ViewController.m */; };
+		3ACB24FF1F5AC48A00016AD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 601160EC1EC4037B00E46DC8 /* AppDelegate.m */; };
+		3ACB25001F5AC48A00016AD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 601160E91EC4037B00E46DC8 /* main.m */; };
+		3ACB25011F5AC48A00016AD4 /* RecordingCircleOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6011611C1EC403E000E46DC8 /* RecordingCircleOverlayView.m */; };
+		3ACB25041F5AC48A00016AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601160F61EC4037B00E46DC8 /* LaunchScreen.storyboard */; };
+		3ACB25051F5AC48A00016AD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 601160F41EC4037B00E46DC8 /* Assets.xcassets */; };
+		3ACB25061F5AC48A00016AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601160F11EC4037B00E46DC8 /* Main.storyboard */; };
 		601160EA1EC4037B00E46DC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 601160E91EC4037B00E46DC8 /* main.m */; };
 		601160ED1EC4037B00E46DC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 601160EC1EC4037B00E46DC8 /* AppDelegate.m */; };
 		601160F01EC4037B00E46DC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601160EF1EC4037B00E46DC8 /* ViewController.m */; };
@@ -36,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3ACB250A1F5AC48A00016AD4 /* LHCycleProgressLH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHCycleProgressLH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACB250B1F5AC48B00016AD4 /* LHCycleProgress copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LHCycleProgress copy-Info.plist"; path = "/Users/haoli/Desktop/LHCycleProgress/LHCycleProgress copy-Info.plist"; sourceTree = "<absolute>"; };
 		601160E51EC4037B00E46DC8 /* LHCycleProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHCycleProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		601160E91EC4037B00E46DC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		601160EB1EC4037B00E46DC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +66,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3ACB25021F5AC48A00016AD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		601160E21EC4037B00E46DC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,6 +104,7 @@
 				601161011EC4037B00E46DC8 /* LHCycleProgressTests */,
 				6011610C1EC4037B00E46DC8 /* LHCycleProgressUITests */,
 				601160E61EC4037B00E46DC8 /* Products */,
+				3ACB250B1F5AC48B00016AD4 /* LHCycleProgress copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +114,7 @@
 				601160E51EC4037B00E46DC8 /* LHCycleProgress.app */,
 				601160FE1EC4037B00E46DC8 /* LHCycleProgressTests.xctest */,
 				601161091EC4037B00E46DC8 /* LHCycleProgressUITests.xctest */,
+				3ACB250A1F5AC48A00016AD4 /* LHCycleProgressLH.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,6 +166,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3ACB24FC1F5AC48A00016AD4 /* LHCycleProgressLH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ACB25071F5AC48A00016AD4 /* Build configuration list for PBXNativeTarget "LHCycleProgressLH" */;
+			buildPhases = (
+				3ACB24FD1F5AC48A00016AD4 /* Sources */,
+				3ACB25021F5AC48A00016AD4 /* Frameworks */,
+				3ACB25031F5AC48A00016AD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LHCycleProgressLH;
+			productName = LHCycleProgress;
+			productReference = 3ACB250A1F5AC48A00016AD4 /* LHCycleProgressLH.app */;
+			productType = "com.apple.product-type.application";
+		};
 		601160E41EC4037B00E46DC8 /* LHCycleProgress */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 601161121EC4037B00E46DC8 /* Build configuration list for PBXNativeTarget "LHCycleProgress" */;
@@ -210,6 +245,9 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = nanfeng;
 				TargetAttributes = {
+					3ACB24FC1F5AC48A00016AD4 = {
+						DevelopmentTeam = C2Y4NGKAHJ;
+					};
 					601160E41EC4037B00E46DC8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = C2Y4NGKAHJ;
@@ -243,11 +281,22 @@
 				601160E41EC4037B00E46DC8 /* LHCycleProgress */,
 				601160FD1EC4037B00E46DC8 /* LHCycleProgressTests */,
 				601161081EC4037B00E46DC8 /* LHCycleProgressUITests */,
+				3ACB24FC1F5AC48A00016AD4 /* LHCycleProgressLH */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3ACB25031F5AC48A00016AD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACB25041F5AC48A00016AD4 /* LaunchScreen.storyboard in Resources */,
+				3ACB25051F5AC48A00016AD4 /* Assets.xcassets in Resources */,
+				3ACB25061F5AC48A00016AD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		601160E31EC4037B00E46DC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -275,6 +324,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3ACB24FD1F5AC48A00016AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACB24FE1F5AC48A00016AD4 /* ViewController.m in Sources */,
+				3ACB24FF1F5AC48A00016AD4 /* AppDelegate.m in Sources */,
+				3ACB25001F5AC48A00016AD4 /* main.m in Sources */,
+				3ACB25011F5AC48A00016AD4 /* RecordingCircleOverlayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		601160E11EC4037B00E46DC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,6 +397,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3ACB25081F5AC48A00016AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2Y4NGKAHJ;
+				INFOPLIST_FILE = "LHCycleProgress copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bingo.com.LHCycleProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3ACB25091F5AC48A00016AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2Y4NGKAHJ;
+				INFOPLIST_FILE = "LHCycleProgress copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bingo.com.LHCycleProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		601161101EC4037B00E46DC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -502,6 +588,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3ACB25071F5AC48A00016AD4 /* Build configuration list for PBXNativeTarget "LHCycleProgressLH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACB25081F5AC48A00016AD4 /* Debug */,
+				3ACB25091F5AC48A00016AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		601160E01EC4037B00E46DC8 /* Build configuration list for PBXProject "LHCycleProgress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
