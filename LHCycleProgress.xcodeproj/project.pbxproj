@@ -212,6 +212,7 @@
 				TargetAttributes = {
 					601160E41EC4037B00E46DC8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C2Y4NGKAHJ;
 						ProvisioningStyle = Automatic;
 					};
 					601160FD1EC4037B00E46DC8 = {
@@ -430,7 +431,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2Y4NGKAHJ;
 				INFOPLIST_FILE = LHCycleProgress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bingo.com.LHCycleProgress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +444,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2Y4NGKAHJ;
 				INFOPLIST_FILE = LHCycleProgress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bingo.com.LHCycleProgress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +518,7 @@
 				601161141EC4037B00E46DC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		601161151EC4037B00E46DC8 /* Build configuration list for PBXNativeTarget "LHCycleProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				601161171EC4037B00E46DC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		601161181EC4037B00E46DC8 /* Build configuration list for PBXNativeTarget "LHCycleProgressUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +536,7 @@
 				6011611A1EC4037B00E46DC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
