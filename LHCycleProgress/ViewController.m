@@ -35,7 +35,15 @@
 }
 -(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    _recordingCircleOverlayView.progress = 0.5;
+//    _recordingCircleOverlayView.progress = 0.5;
+#ifdef DEBUG//调试状态，打开LOG功能
+    UIAlertView * alertView =[[UIAlertView alloc] initWithTitle:@"DEBUG" message:@"DEBUG" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确认", nil];
+    [alertView show];
+#else//发布状态，关闭LOG功能
+    UIAlertView * alertView =[[UIAlertView alloc] initWithTitle:@"release" message:@"release" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确认", nil];
+    [alertView show];
+#endif
+
     
 }
 -(void)changeSlider:(UISlider*)slider
