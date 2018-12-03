@@ -251,7 +251,7 @@
 					};
 					601160E41EC4037B00E46DC8 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = C2Y4NGKAHJ;
+						DevelopmentTeam = 777KAS5RPN;
 						ProvisioningStyle = Automatic;
 					};
 					601160FD1EC4037B00E46DC8 = {
@@ -524,9 +524,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = C2Y4NGKAHJ;
+				DEVELOPMENT_TEAM = 777KAS5RPN;
 				INFOPLIST_FILE = LHCycleProgress/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bingo.com.LHCycleProgress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -537,9 +537,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = C2Y4NGKAHJ;
+				DEVELOPMENT_TEAM = 777KAS5RPN;
 				INFOPLIST_FILE = LHCycleProgress/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bingo.com.LHCycleProgress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
